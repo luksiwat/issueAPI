@@ -1,0 +1,21 @@
+{
+
+  "compilerOptions": {
+    "baseUrl": "",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "mapRoot": "./",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "build",  //folder ที่ใช้ build
+    "sourceMap": true,  //mapระหว่าง js กับ ts
+    "target": "es5",  //version output
+    "typeRoots": [  
+      "../node_modules/@types"  //ติดตั้ง type
+    ],
+    "types": [ "node", "express" ]
+  }
+
+}
